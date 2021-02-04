@@ -14,10 +14,9 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'HightBigger' => '435021572@qq.com' }
   s.source           = { :git => 'https://github.com/HightBigger/XDFoundation.git', :tag => s.version.to_s }
-
+  s.module_map   = 'XDFoundation.modulemap'
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'XDFoundation/Classes/**/*'
+  s.source_files = 'XDFoundation/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'XDFoundation' => ['XDFoundation/Assets/*.png']

@@ -1,0 +1,6 @@
+framework module XDFoundation {
+  umbrella header "XDFoundation.h"
+
+  export *
+  module * { export * }
+}
